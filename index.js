@@ -27,7 +27,7 @@ class Local {
 
   remove(key) {
     delete this.state[key]
-    localStorage.removeItem('key')
+    localStorage.removeItem(key)
   }
 
   clear() {
